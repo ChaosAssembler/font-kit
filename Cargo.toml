@@ -13,7 +13,7 @@ rust-version = "1.77"
 
 [features]
 default = ["source"]
-loader-freetype = ["freetype"]
+loader-freetype = ["freetype", "freetype-sys"]
 loader-freetype-default = ["loader-freetype"]
 source-fontconfig = ["yeslogic-fontconfig-sys"]
 source-fontconfig-dlopen = ["yeslogic-fontconfig-sys/dlopen"]
